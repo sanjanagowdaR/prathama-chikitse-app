@@ -17,7 +17,7 @@ val emergencyList = listOf(
         titleKn = "ಹಾವಿನ ಕಡಿತ",
         steps = listOf(
             "Keep the victim calm",
-            "Do not move the affected area",
+            "Do not move the affected area",git --version
             "Remove tight clothing",
             "Take patient to hospital immediately",
             "Cover the bite gently",
