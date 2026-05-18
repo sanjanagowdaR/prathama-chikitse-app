@@ -23,7 +23,7 @@ fun AiScreen(selectedLanguage: String) {
     }
     var isLoading by remember { mutableStateOf(false) }
 
-    val apiKey = "AIzaSyAicLy2UdYAavtw6ZOo09--47L_T_Ptc0E"
+    val apiKey = ""
 
     Column(
         modifier = Modifier
