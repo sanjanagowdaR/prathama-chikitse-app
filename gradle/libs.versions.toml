@@ -1,0 +1,20 @@
+[versions]
+
+agp = "8.5.1"
+kotlin = "2.0.0"
+generativeai = "0.9.0"
+
+[libraries]
+
+androidx-core-ktx = "androidx.core:core-ktx:1.13.1"
+androidx-lifecycle-runtime-ktx = "androidx.lifecycle:lifecycle-runtime-ktx:2.8.4"
+androidx-activity-compose = "androidx.activity:activity-compose:1.9.1"
+google-generativeai = { group = "com.google.ai.client.generativeai", name = "generativeai", version.ref = "generativeai" }
+
+[plugins]
+
+android-application = { id = "com.android.application", version.ref = "agp" }
+
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
